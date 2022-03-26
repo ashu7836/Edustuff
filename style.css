@@ -1,0 +1,407 @@
+
+h1{
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: black;
+}
+span{
+    font-size: .9rem;
+    color: #757373;
+}
+h6{
+    font-size: 1.1rem;
+}
+
+nav{
+    position: fixed;
+    width: 85%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1vw 8vw;
+    box-shadow: 2px 2px 10px rgb(0, 0, 0.15);
+    margin-top: -1%;
+    
+}
+
+nav .tittle{
+    margin-left: -40%;
+    
+}
+
+nav img{
+    width: 100px;
+    cursor: pointer;
+    margin-left: -95px;
+}
+
+nav .navigation ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav .navigation ul li{
+    list-style: none;
+    margin-left: 30px;
+}
+
+nav .navigation ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    transition: 0.5;
+    
+}
+
+nav .navigation ul li a:hover{
+    color: rgb(255, 255, 255);
+    background-color: black;
+    border: 3px solid white;
+}
+
+#home{
+
+   background-image: linear-gradient(rgba(9,5,54,0.3),rgba(5,4,46,0.7)), url(small3.jpg);
+   
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: centers;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 5%;
+    
+}
+
+#home h2{
+    
+    color: white;
+    font-size: 2.2rem;
+    letter-spacing: 1px;
+}
+
+#home p{
+
+
+    width: 50%;
+    color: rgb(102, 90, 90);
+    font-size: 0.9rem;
+    line-height: 25px;
+}
+
+
+#home a{
+    text-decoration: none;
+    font-size: 0.9rem;
+    padding: 13px 35px;
+    background-color: wheat;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+
+#home a.blue{
+color: black;
+background: rgb(130, 130, 155);
+}
+
+#home a.blue:hover{
+color: yellow;
+background: rgb(237, 237, 241)
+}
+
+
+#home a.yellow{
+    color: wheat;
+    background: rgb(150, 150, 179)
+    }
+    
+#home a.yellow:hover{
+    color: yellow;
+    background: rgb(237, 237, 241)
+    }
+
+#features{
+    padding:5vw 8vw 0 8vw;
+    text-align: center;
+    
+}
+
+/**#features .fea-base{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 3px;
+
+    border: 3px solid green;
+}**/
+
+
+#features .fea-base{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 2rem;
+    margin-top: 15px;
+}
+
+#features .fea-box{
+    background: rgb(207, 145, 145);
+    text-align: start;
+}
+
+#features .fea-box i{
+    font-size: 2.3rem;
+    color: bisque;
+}
+
+#features .fea-box h3{
+    font-size: 3.3rem;
+    color: aqua;
+    font-weight: 600;
+    padding: 13px 0 7px 0;
+}
+
+#features .fea-box p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: blue;
+}
+
+#course{
+    padding: 3vw 5vw;
+    text-align: center;
+}
+
+#course .courses{
+        text-align: start;
+        background: white;
+        height: 487px;
+
+}
+
+#course .courses img{
+    width: 100%;
+    height: 54%;
+    background-size: cover;
+    background-position: center;
+}
+
+
+#course .course-box{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+    grid-gap: 1rem;
+    margin-top: 50px;
+}
+
+#course .courses .details{
+    padding: 15px 15px 0 15px;
+}
+
+#course .courses .details i{
+    color: yellow;
+    font-size: 0.9rem;
+}
+
+#course .courses .details{
+    background-color: rgb(74,74,136);
+    color: whitesmoke;
+    line-height: 12px;
+}
+
+
+
+
+
+
+
+
+
+#registration{
+  
+    padding: 6vw 8vw 6vw 8vw;
+    background-image: linear-gradient(rgba(79, 97, 129, 0.5),rgba(67,98,65,0.7)),url(small2.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 85%;
+    height: 100vh;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#registration .reminder{
+    color: white;
+}
+
+#registration .reminder h1{
+    color: white;
+}
+
+#registration .reminder .time{
+    display: flex;
+    margin-top: 40px;
+}
+
+#registration .reminder .time .date{
+    text-align: center;
+    padding: 13px 33px;
+    background-color: rgba(243, 236, 236, 0.25);
+    backdrop-filter: blur(5px);
+    box-shadow: 0 8px 12px 0px rgba(223, 216, 216, 0.25);
+    border-radius: 5px;-
+    margin: 0 5px 10px 0;
+    border: 1px solid #8f7878;
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+#registration .form{
+    background-color: white;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    box-shadow: 0 8px 32px 0 rgba(190, 190, 109, 0.37);
+
+}
+
+#registration .form .btn{
+    margin-top: 20px;
+}
+
+#registration .form input::placeholder{
+    color: gray;
+    font-weight: 300;
+    font-size: 0.9rem;
+}
+
+#registration .form input{
+    margin: 15px 0;
+    padding: 15px 10px;
+    border: 1px solid rgb(rgb(187, 84, 84), rgb(68, 172, 68), rgb(150, 150, 179));
+    outline: none;
+    
+}
+
+#registration .form a.yellow{
+    color: black;
+    background: yellow;
+    transition: 0.5s;
+}
+
+#registration .form a.yellow:hover{
+    color: yellow;
+    background: wheat;
+}
+
+#experts{
+    width: 80%;
+    padding: 8vw 8vw 0 8vw;
+    text-align: center;
+}
+
+#experts .expert-box{
+display: flex;
+flex-direction: row;
+padding: 60px 8px 98px 136px;
+margin: 32px 6px 25px -78px;
+justify-content: space-between;
+align-items: center;
+  
+}
+
+#experts .expert-box .profile{
+    background: 10px rgb(173, 185, 173);
+    border-radius: 5px;
+}
+
+#experts .expert-box .profile img{
+    width: 50%;
+    border: 2px solid wheat;
+border-radius: 64px;
+}
+
+.pro-link{
+    margin-top: 10px;
+
+}
+.pro-link i{
+    padding: 10px 13px;
+    border: 3px solid yellow;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.pro-link i:hover{
+    background: black;
+    color: wheat;
+    border: 2px solid red;
+    cursor: pointer;
+}
+
+
+footer{
+    width: 85%;
+    padding: 8vw;
+    background-color: rgb(75, 55, 55);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+
+}
+
+footer .footer-col{
+padding-bottom: 40px;
+}
+
+footer h3{
+    color: white;
+    font-weight: 500;
+    padding-bottom: 30px;
+}
+
+footer li{
+    list-style: none;
+    color: black;
+    padding: 10px 0;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+footer li:hover{
+    color: white;
+
+}
+
+footer p{
+    color: red;
+    
+}
+`
+footer .subscribe{
+    margin-top: 5px;
+}
+
+footer input{
+    width:220px ;
+    padding:13px 42px;
+    background: white;
+    border: none;
+    outline: none;
+    color:red;
+}
+
+footer .copyright{
+    margin: 8vw 8vw 0 8vw;
+}
